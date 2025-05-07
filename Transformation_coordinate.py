@@ -115,7 +115,7 @@ def main(calibration_data):
 
 # ===== 실행부 =====
 if __name__ == "__main__":
-    pkl_path = r'calibration/pkl/camera_calibration.pkl'
+    pkl_path = r'/home/addinedu/Documents/GitHub/calibration/pkl/camera_calibration.pkl'
     if os.path.exists(pkl_path):
         with open(pkl_path, 'rb') as f:
             calibration_data = pickle.load(f)
